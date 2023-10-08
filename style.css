@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(0.25turn, #71C9CE, #A6E3E9, #CBF1F5);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #FFFBE9;
+}
+
+h2 {
+    font-size: 200px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000000;
+    animation: 3s linear 1s infinite alternate slidein;
+}
+
+button {
+    color: #A6E3E9;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin: 0 10px 0 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+
+#increment-btn {
+    font-weight: 300;
+    background-color: #D71313;
+    box-shadow: 0 0 5px #D71313,
+        0 0 25px #D71313;
+}
+
+#increment-btn:hover {
+    font-weight: bold;
+    color: #E3FDFD;
+    box-shadow: 0 0 5px #D71313,
+    0 0 25px #D71313, 0 0 50px #D71313,
+    0 0 100px #D71313, 0 0 200px #D71313;
+}
+
+#decrement-btn {
+    font-weight: 300;
+    background-color: #16FF00;
+    box-shadow: 0 0 5px #16FF00,
+        0 0 25px #16FF00;
+}
+
+#decrement-btn:hover {
+    font-weight: bold;
+    color: #E3FDFD;
+    box-shadow: 0 0 5px #16FF00,
+    0 0 25px #16FF00, 0 0 50px #16FF00,
+    0 0 100px #16FF00, 0 0 200px #16FF00;
+}
+
+#reset-btn {
+    font-weight: 300;
+    background-color: #F94A29;
+    box-shadow: 0 0 5px #F94A29,
+        0 0 25px #F94A29;
+}
+
+#reset-btn:hover {
+    font-weight: bold;
+    color: #E3FDFD;
+    box-shadow: 0 0 5px #F94A29,
+    0 0 25px #F94A29, 0 0 50px #F94A29,
+    0 0 100px #F94A29, 0 0 200px #F94A29;
+}
+
+
+#save-btn {
+    font-weight: 300;
+    background-color: #0079FF;
+    box-shadow: 0 0 5px #0079FF,
+        0 0 25px #0079FF;
+}
+
+
+#save-btn:hover {
+    font-weight: bold;
+    color: #E3FDFD;
+    box-shadow: 0 0 5px #0079FF,
+    0 0 25px #0079FF, 0 0 50px #0079FF,
+    0 0 100px #0079FF, 0 0 200px #0079FF;
+}
+
+
+#text {
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#main {
+    margin-left: 50px;
+    margin-right: 50px;
+}
